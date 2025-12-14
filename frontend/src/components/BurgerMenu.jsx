@@ -21,8 +21,10 @@ export default function BurgerMenu() {
           <a href="/BlogPosts" className="page-links">
             <li className="page">Blog Posts</li>
           </a>
+          <a href="/Projects" className="page-links">
+            <li className="page">Projects</li>
+          </a>
           
-          <li className="page">Projects</li>
         </ul>
       </div>
       

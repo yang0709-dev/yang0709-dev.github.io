@@ -18,6 +18,7 @@
     position: relative;
     padding: 2px;
     transform: scale(1.0);
+    overflow-y: scroll;
     /* background-color: brown; */
 }
 
@@ -35,7 +36,7 @@
     flex-direction: column;
     align-items: start;
     overflow-x: hidden;
-
+    /* overflow-y: auto; */
     /* ============ brute force solution for the problem ===========*/
     width: 1300%;
 }
@@ -56,6 +57,17 @@
 
 #post-teleporter{
     text-decoration: none;
+    color: inherit;
+
+}
+
+.post-name{
+    font-weight: bold;
+    /* overflow-y: auto; */
+}
+
+.post-desc{
+    /* overflow-y: auto; */
 }
 
 @media screen and (max-width:480px) {

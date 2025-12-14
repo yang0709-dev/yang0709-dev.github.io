@@ -19,6 +19,7 @@
     border: 2px solid black;
     min-width: 200px;
     transition: transform .3s ease;
+    z-index: 5000;
 }
 
 #burger-elements.open{

@@ -5,6 +5,7 @@ import BurgerMenu from './components/BurgerMenu'
 import BlogPosts from './pages/BlogPosts'
 import Projects from './pages/Projects'
 import First from './components/Blogs/First'
+import "./App.css"
 
 
 export default function App(){

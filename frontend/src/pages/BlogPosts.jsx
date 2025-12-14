@@ -7,7 +7,7 @@ export default function BlogPosts() {
       <div id="blogs-container">
         <div id="blogs-title">Blogs</div>
         <div id="blogs-wrapper">
-            <Post picture_path='/first.png' title='Instadfjladfjlkadfjlkadjflkajdlfkjaldsjflkasjdf' desc='test' path_to_post='/First'></Post>
+            <Post picture_path='/first.png' title='Instadf' desc='test' path_to_post='/First'></Post>
         </div>
       </div>
     </>

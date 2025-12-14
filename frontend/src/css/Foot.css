@@ -5,11 +5,13 @@
     /* background-color: beige; */
     top: 0;
     left: 0;
-    z-index: -20;
-    background-color: beige;
+    /* visibility: hidden; */
+    /* background-color: beige; */
+    pointer-events: none;
 }
 
 #big-div{
+    pointer-events: none;
     width: 100vw;
     height: 100vh;
     left: 0;
@@ -18,6 +20,8 @@
 }
 
 .icons{
+    pointer-events:all;
+    z-index: -1;
     width: 100vw;
     height: 50px;
     display: flex;
