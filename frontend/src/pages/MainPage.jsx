@@ -7,10 +7,10 @@ export default function MainPage() {
     <>
       
       <div id="picture-and-info">
-        <img src="../public/me.png" id="me"></img>
+        <img src="/me.png" id="me"></img>
         <div className="about-me">
           <div className="info" id="name">
-            dfadafidaf
+            dfadafidafc
           </div>
           <div className="info" id="desc">
             fgiosdfgmfdg
