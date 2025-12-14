@@ -5,15 +5,17 @@ import { move_to_right } from "../functions/move_to_right";
 
 export default function BurgerMenu() {
   return (
-    <>
+    <div id="burger-container">
       <RxHamburgerMenu id="burger" onClick={move_to_right()}/>
-      <div id="container">
+      <div id="burger-elements">
+        
         <ul className="pages">
           <li className="page">Introduction</li>
           <li className="page">Blog Posts</li>
           <li className="page">Project</li>
         </ul>
       </div>
-    </>
+      
+    </div>
   );
 }

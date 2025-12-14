@@ -4,11 +4,14 @@ import "../css/Foot.css";
 
 export default function Foot() {
   return (
-    <div id="container">
+    <div id="foot-container">
       <div id="big-div">
         <div className="icons">
-          <FiYoutube className="icon" href="youtube.com" />
-          <a href="https://github.com/yang0709-dev">
+          <a href='https://youtube.com/@Scorp588' className="links">
+            <FiYoutube className="icon" />
+          </a>
+          
+          <a href="https://github.com/yang0709-dev" className="links">
             <TiSocialGithubCircular className="icon" />
           </a>
         </div>

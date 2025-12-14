@@ -1,25 +1,23 @@
 :root{
     --container-color:rgba(255, 255, 255, 0.8);
     --hide-left:-30%+2px;
+    --burger-color:rgb(212, 212, 212);
 }
 
-#container{
+
+#burger-elements{
     position: fixed;
     height: 100vh;
     top: 0;
-    left: calc(-30% - 2px);
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 30%;
-    /* background-color: red; */
     background-color: var(--container-color);
     border: 2px solid black;
-    
+
 }
 
 .pages{
-    /* background-color: blue; */
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -27,6 +25,7 @@
     justify-content: center;
     margin: 0;
     padding: 0;
+    z-index: 3;
 }
 
 .page{
@@ -42,13 +41,24 @@
 }
 
 #burger{
-    z-index: 2;
+    z-index: 30000;
+    position: fixed;
+    border: 2px solid black;
+    padding: 5px;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    background-color: var(--burger-color);
 }
 
-@keyframes move_to_right {
+#burger:hover{
+    cursor: pointer;
+}
+
+/* @keyframes move_to_right {
     0% {left: calc(-30% - 2px);}
     100% {left: 0;}
-}
+} */
 
 .burger:active .container{
     left: 0;

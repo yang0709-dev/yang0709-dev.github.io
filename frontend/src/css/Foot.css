@@ -1,21 +1,20 @@
-#container{
+#foot-container{
     width: 100vw;
     height: 100vh;
     position: fixed;
     /* background-color: beige; */
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -20;
+    background-color: beige;
 }
 
 #big-div{
     width: 100vw;
     height: 100vh;
-    /* left: 0;
-    top: 0; */
+    left: 0;
+    top: 0;
     position: relative;
-    color: red;
-    /* background-color: blue; */
 }
 
 .icons{
@@ -25,9 +24,11 @@
     font-size: 30px;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     bottom: 0;
+
+
     
 }
 
