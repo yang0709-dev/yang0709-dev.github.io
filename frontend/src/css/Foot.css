@@ -32,11 +32,31 @@
     
 }
 
+.links{
+    color: inherit;
+    text-decoration: none;
+}
+
 .icon{
     margin: 0 20px;
+    color: white;
 }
 
 .icon:hover{
     cursor: pointer;
 }
 
+#youtube-icon:hover{
+    color: red;
+    transition: color .2s ease-in-out;
+}
+
+#github-icon:hover{
+    color: rgb(158, 158, 158);
+    transition: color .2s ease-in-out;
+}
+
+#discord-icon:hover{
+    color: rgb(88, 119, 255);
+    transition: color .2s ease-in-out;
+}

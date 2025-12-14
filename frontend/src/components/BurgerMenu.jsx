@@ -12,7 +12,7 @@ export default function BurgerMenu() {
         <ul className="pages">
           <li className="page">Introduction</li>
           <li className="page">Blog Posts</li>
-          <li className="page">Project</li>
+          <li className="page">Projects</li>
         </ul>
       </div>
       
