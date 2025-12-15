@@ -1,16 +1,40 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About The Project
+這是我的Portfolio,是用簡易React跟css做成的自我介紹網站。
 
-Currently, two official plugins are available:
+## Built With
+* [![React][React.js]][React-url]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+## Installation
+1. Clone the repo
+   ```sh
+   git clone https://github.com/yang0709-dev/Habit-Tracker
+   ```
+2. cd to the "habit-tracker" folder
+   ```sh
+   cd habit-tracker/
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Run the project
+   ```sh
+   npm run dev
+   ```
+## Contact
+Email: yang0709dev@protonmail.com
+<br/>
+Github: https://github.com/yang0709-dev
+<br/>
+Discord: Scorp9514
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<!-- MARKDOWN LINKS & IMAGES -->
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
