@@ -45,6 +45,7 @@
     margin: 20px 0;
     text-align: center;
     color: black;
+    font-size: clamp(32px,5%,60px);
 }
 
 .page:hover{
